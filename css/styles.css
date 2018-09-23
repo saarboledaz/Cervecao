@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poppins Regular'), local('Poppins-Regular'),
+        url('Poppins/Poppins-Regular.ttf') format('truetype'),
+        url('Poppins/Poppins-Regular.woff') format('woff')
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 100%;
+    color: #5A5B5D;
+    background-color:#baa898;
+    text-align: center;
+    overflow-x:hidden;
+}
+nav {
+    position: absolute;
+    width: 1400px;
+    margin-left:-78px;
+}
+
+nav ul {
+
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    
+
+}
+
+nav ul li{
+    width:140px;
+    float:left;
+    background-color:#522b29;
+    color:white;
+    height:70px;
+    border-left-style: solid;
+    border-color:#baa898;
+}
+nav ul li a {
+    color:inherit;
+    
+    margin:auto;
+    padding-top:12px;
+    display: block;
+    text-decoration: none;
+    width: 100%; }
+
+.nav-active{
+    color:black;
+    background-color: #c2847a;
+    width:150px;
+}    
+.banner{
+    text-align: center;
+    width:884px;
+    height: 250px;
+}
+.main{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 100px;
+    background-color: #eee0cb;
+    border-radius: 50px;
+}
+
+h1{
+    font-size:35px;
+    color:black;
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 3px black dashed;
+}
+
+h3{
+    
+    font-size: 25px;
+    color:#1BA31B;
+    text-align:left;
+    font-weight: normal;
+    border-bottom: 1px #1BA31B dashed;
+}
+p{
+    color:black;
+    text-align: justify;
+}
+.box_media{
+    text-align: center;
+}
+.about{
+    font-size: 11px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+}
+.foot{
+    width:100%;
+    background-color:#522b29;
+    height: 50px;
+    font-size:14px;
+    margin-left: 0.5px;
+    
+}
+.contact{
+    position:relative;
+    margin-top: 5px;
+    padding:10px;
+    color:white;
+}
+button{
+    background:transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    border: transparent;
+    font-size: 14px;
+}
+.wUnactive{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #c2847a;
+    color:black;
+    visibility: hidden;
+}
+.wUnactive.wActive{
+    visibility: visible;
+}
+
+th{
+    background-color:#FF7F50;
+    color:black;
+
+}
+
+td{
+    background-color:#F0F05E;
+    color:black;
+}

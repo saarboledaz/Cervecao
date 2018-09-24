@@ -10,13 +10,15 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    color: #5A5B5D;
+    color: black;
     background-color:#baa898;
     text-align: center;
 }
 nav {
-    position: static;
+    position: absolute;
     width:100%;
+    top:250px;
+    left:-10px;
 }
 
 nav ul {
@@ -25,6 +27,46 @@ nav ul {
     
 
 }
+.tooltip {
+    cursor: pointer;
+}
+
+sup{
+    
+    font-weight: bold;
+    color: #b24926;
+}
+
+div.tooltip {
+    font-weight: bold;
+    color: #b24926;
+    float:left;
+    margin-top:-10px;
+    height:auto;
+    max-height: 20px;
+}
+
+.refu{
+    display:none;
+    
+    
+
+}
+.refa{
+    width:auto;
+    max-width:100px;
+    line-height: 10px;
+    background-color:#eee0cb;
+    color:black;
+    margin-left: 10px;
+    margin-top:5px;
+    float:right;
+
+}
+
+
+
+
 
 nav ul li{
     width:140px;
@@ -107,6 +149,13 @@ p{
     padding:10px;
     color:white;
 }
+.contact-w{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: #c2847a;
+    color:black;
+}
 button{
     background:transparent;
     border-radius: 10px;
@@ -114,6 +163,7 @@ button{
     border: transparent;
     font-size: 14px;
 }
+
 
 th{
     background-color:#FF7F50;
@@ -124,4 +174,28 @@ th{
 td{
     background-color:#F0F05E;
     color:black;
+}
+
+ul.data_list {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+}
+
+ul.data_list li {
+    padding-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+    text-align: left;
+}
+
+ul.data_list li:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    border: 2px solid #522b29;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
 }

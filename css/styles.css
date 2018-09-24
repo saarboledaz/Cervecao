@@ -24,7 +24,7 @@ nav {
 nav ul {
 
     list-style: none;
-    
+
 
 }
 .tooltip {
@@ -32,7 +32,7 @@ nav ul {
 }
 
 sup{
-    
+
     font-weight: bold;
     color: #b24926;
 }
@@ -48,8 +48,8 @@ div.tooltip {
 
 .refu{
     display:none;
-    
-    
+
+
 
 }
 .refa{
@@ -65,9 +65,6 @@ div.tooltip {
 }
 
 
-
-
-
 nav ul li{
     width:140px;
     float:left;
@@ -79,7 +76,7 @@ nav ul li{
 }
 nav ul li a {
     color:inherit;
-    
+
     margin:auto;
     padding-top:12px;
     display: block;
@@ -90,7 +87,7 @@ nav ul li a {
     color:black;
     background-color: #c2847a;
     width:150px;
-}    
+}
 .banner{
     text-align: center;
     width:884px;
@@ -113,7 +110,7 @@ h1{
 }
 
 h3{
-    
+
     font-size: 25px;
     color:#1BA31B;
     text-align:left;
@@ -141,7 +138,7 @@ p{
     height: 50px;
     font-size:14px;
     margin-left: 0.5px;
-    
+
 }
 .contact{
     position:relative;
@@ -198,4 +195,8 @@ ul.data_list li:before {
     width: 10px;
     height: 10px;
     border-radius: 10px;
+}
+
+li{
+  text-align: justify;
 }

@@ -20,5 +20,14 @@ $(document).ready(() => {
         $(event.currentTarget).animate({ fontSize: '14px' }, 200);
 
     });
+    $('.tooltip').on('mouseenter', function(event){
+        $('.tooltip').find('div').removeClass('refu').addClass('refa');
+    });
+    $('.tooltip').on('mouseleave', function(event){
+        $('.tooltip').find('div').removeClass('refa').addClass('refu');
+    });
+
+    
+    
     
 });

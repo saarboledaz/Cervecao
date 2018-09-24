@@ -10,26 +10,18 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    margin: 0 auto;
-    padding: 0;
-    width: 90%;
-    height: 100%;
     color: #5A5B5D;
     background-color:#baa898;
     text-align: center;
-    overflow-x:hidden;
 }
 nav {
-    position: absolute;
-    width: 1400px;
-    margin-left:-78px;
+    position: static;
+    width:100%;
 }
 
 nav ul {
 
-    width: 100%;
     list-style: none;
-    margin: 0;
     
 
 }
@@ -63,8 +55,8 @@ nav ul li a {
     height: 250px;
 }
 .main{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
     padding: 100px;
     background-color: #eee0cb;
     border-radius: 50px;
@@ -121,17 +113,6 @@ button{
     text-decoration: none;
     border: transparent;
     font-size: 14px;
-}
-.wUnactive{
-    max-width: 300px;
-    margin-left: auto;
-    margin-right:auto;
-    background-color: #c2847a;
-    color:black;
-    visibility: hidden;
-}
-.wUnactive.wActive{
-    visibility: visible;
 }
 
 th{

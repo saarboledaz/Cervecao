@@ -20,14 +20,5 @@ $(document).ready(() => {
         $(event.currentTarget).animate({ fontSize: '14px' }, 200);
 
     });
-    $contactButton.on('click', function(){
-        const $contactW = $('#contactw');
-        if ($contactW.css('visibility').toLowerCase() == 'hidden'){
-            
-            $contactW.addClass('wActive');
-        }else{
-            $contactW.removeClass('wActive');
-             
-        }
-    });
+    
 });

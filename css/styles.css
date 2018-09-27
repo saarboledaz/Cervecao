@@ -14,11 +14,30 @@ body {
     background-color:#baa898;
     text-align: center;
 }
-nav {
+.navleft {
     position: absolute;
-    width:100%;
+    width:10%;
     top:250px;
-    left:-10px;
+    left:1.6%;
+}
+.navright{
+    position:absolute;
+    right: 4.7%;
+    top: 315px;
+}
+.studies{
+    position:absolute;
+    top:264px;
+    left:84.95%;
+    background-color:#522b29;
+    width:140px;
+    text-align:center;
+    height:50px;
+    color:white;
+    padding-top: 20px;
+    border-radius:10px;
+    cursor:pointer;
+    
 }
 
 nav ul {
@@ -67,12 +86,11 @@ div.tooltip {
 
 nav ul li{
     width:140px;
-    float:left;
     background-color:#522b29;
     color:white;
     height:70px;
-    border-left-style: solid;
-    border-color:#baa898;
+    text-align:center;
+    border-radius:10px;
 }
 nav ul li a {
     color:inherit;
@@ -96,11 +114,13 @@ nav ul li a {
 .main{
     margin-left: 70px;
     margin-right: 70px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-left:150px;
+    padding-right:150px;
+    padding-bottom: 50px;
     background-color: #eee0cb;
     border-radius: 50px;
 }
-
 h1{
     font-size:35px;
     color:black;

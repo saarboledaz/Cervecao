@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    const $navBar = $('#navbar');
+    const $navBar = $('.navbar');
     const $navElements = $navBar.find('li');
     $navElements.on('mouseenter', function (event) {
         $(event.currentTarget).addClass('nav-active');
@@ -26,7 +26,22 @@ $(document).ready(() => {
     $('.tooltip').on('mouseleave', function(event){
         $('.tooltip').find('div').removeClass('refa').addClass('refu');
     });
-
+    const $stud = $('#stud');
+    const $navRight = $stud.find('nav');
+    const $studies = $stud.find('div')
+    $stud.on('mouseenter',function(event){
+        $studies.addClass('nav-active');
+        $studies.animate({ fontSize: '18px' }, 200);
+        $navRight.removeClass('refu');
+        $navRight.on('mouseleave',function(){
+            $navRight.addClass('refu');
+        });
+    });
+    $stud.on('mouseleave', function(event){
+        $studies.removeClass('nav-active');
+        $studies.animate({ fontSize: '14px' }, 200);
+        $navRight.addClass('refu');
+    });
     
     
     

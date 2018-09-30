@@ -37,21 +37,18 @@ body {
     padding-top: 20px;
     border-radius:10px;
     cursor:pointer;
-    
+
 }
 
 nav ul {
-
     list-style: none;
-
-
 }
+
 .tooltip {
     cursor: pointer;
 }
 
 sup{
-
     font-weight: bold;
     color: #b24926;
 }
@@ -67,10 +64,8 @@ div.tooltip {
 
 .refu{
     display:none;
-
-
-
 }
+
 .refa{
     width:auto;
     max-width:100px;
@@ -80,7 +75,6 @@ div.tooltip {
     margin-left: 10px;
     margin-top:5px;
     float:right;
-
 }
 
 
@@ -121,6 +115,7 @@ nav ul li a {
     background-color: #eee0cb;
     border-radius: 50px;
 }
+
 h1{
     font-size:35px;
     color:black;
@@ -130,13 +125,13 @@ h1{
 }
 
 h3{
-
     font-size: 25px;
     color:#1BA31B;
     text-align:left;
     font-weight: normal;
     border-bottom: 1px #1BA31B dashed;
 }
+
 p{
     color:black;
     text-align: justify;
@@ -181,11 +176,14 @@ button{
     font-size: 14px;
 }
 
+table{
+  margin-left:auto;
+  margin-right:auto;
+}
 
 th{
     background-color:#FF7F50;
     color:black;
-
 }
 
 td{

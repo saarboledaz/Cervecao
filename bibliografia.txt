@@ -1,3 +1,5 @@
 banner -> https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=&url=https%3A%2F%2Fwww.villaandina.com%2Four-products%2Fraw-cacao-derivatives&psig=AOvVaw2MW7zhGZdamBQQsrBI8Sll&ust=1537574708156307
 Freepik references
+logo <- <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de fondo creado por visnezh - www.freepik.es</a>
+banner <-<a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de fondo creado por macrovector - www.freepik.es</a>
 E.Legal img 1 -> <a href='https://www.freepik.es/fotos-vectores-gratis/fondo'>Vector de fondo creado por katemangostar - www.freepik.es</a>

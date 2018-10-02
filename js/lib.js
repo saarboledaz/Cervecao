@@ -33,9 +33,9 @@ $(document).ready(() => {
         $studies.addClass('nav-active');
         $studies.animate({ fontSize: '18px' }, 200);
         $navRight.removeClass('refu');
-        $navRight.on('mouseleave',function(){
+        /*$navRight.on('mouseleave',function(){
             $navRight.addClass('refu');
-        });
+        });*/
     });
     $stud.on('mouseleave', function(event){
         $studies.removeClass('nav-active');

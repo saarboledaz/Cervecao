@@ -18,7 +18,8 @@ body {
     position: absolute;
     width:10%;
     top:250px;
-    left:1.6%;
+    left:-2.4%;
+    float: left;
 }
 .navright{
     position:absolute;
@@ -26,9 +27,8 @@ body {
     top: 315px;
 }
 .studies{
-    position:absolute;
-    top:264px;
-    left:84.95%;
+    /*! top:264px; */
+    /*! left:84.95%; */
     background-color:#522b29;
     width:140px;
     text-align:center;
@@ -38,6 +38,8 @@ body {
     border-radius:10px;
     cursor:pointer;
 
+    float: right;
+    position: relative;
 }
 
 nav ul {

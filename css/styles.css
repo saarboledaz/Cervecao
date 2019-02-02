@@ -140,6 +140,8 @@ p{
 }
 .box_media{
     text-align: center;
+    max-width: 100%;
+    margin:auto;
 }
 .about{
     font-size: 11px;

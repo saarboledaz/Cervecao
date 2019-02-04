@@ -170,13 +170,13 @@ p {
 }
 
 .contact-w {
-    width: 80%;
+    width: 100%;
     margin: auto;
     border: #204b57 4px dashed;
     background: #d9d9d9;
-    min-height: 800px;
     position: relative;
     margin-top: 2%;
+    height: 400px;
 }
 
 .contact {

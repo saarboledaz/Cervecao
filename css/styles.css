@@ -5,6 +5,19 @@
     src: local('Poppins Regular'), local('Poppins-Regular'), url('Poppins/Poppins-Regular.ttf') format('truetype'), url('Poppins/Poppins-Regular.woff') format('woff')
 }
 
+.box_media2{
+    
+}
+
+.box_media2 img{
+    
+    width: 49%;
+}
+.box_media3 img{
+    
+    width: 49%;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
